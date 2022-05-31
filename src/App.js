@@ -7,14 +7,14 @@ export default function App() {
     <div className="container">
       <div className="App">
         <h1>Dictionary</h1>
-        <Dictionary defaultKeyword="sunshine" />
+        <Dictionary defaultKeyword="Moon" />
         <br />
         <footer>
          This app was created by Florentina Simion ©, as part of her SheCodes React final projects.
          <br/>
          {" "}Open-sourced on{" "}
           <a
-            href="https://github.com/Latteflo/Dictionary-project"
+            href="https://github.com/Latteflo/Dictionary"
             target="_blank"
             rel="noopener noreferrer">
           Github

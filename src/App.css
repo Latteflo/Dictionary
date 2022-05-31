@@ -1,7 +1,10 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image:url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/819/original/3548176.jpg?1653946563);
-    background-size:cover;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .container{
