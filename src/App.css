@@ -10,6 +10,7 @@ body{
 .container{
   width: 550px;
   margin:0 auto; 
+  margin-top: 15px;
   border-radius: 15px;
   background: #ffffff;
 box-shadow:  30px 30px 60px #cccccc,

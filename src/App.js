@@ -7,7 +7,8 @@ export default function App() {
     <div className="container">
       <div className="App">
         <h1>Dictionary</h1>
-        <Dictionary defaultKeyword="Moon" />
+        <h2>Let's search something, shall we?</h2>
+        <Dictionary defaultKeyword="" />
         <br />
         <footer>
          This app was created by Florentina Simion ©, as part of her SheCodes React final projects.
