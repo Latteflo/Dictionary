@@ -1,6 +1,6 @@
 import React from "react";
 import "./Phonetics.css";
-import AudioPlayer from "react-h5-audio-player";
+import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player'
 import "react-h5-audio-player/lib/styles.css";
 
 export default function Phonetics(props) {
@@ -17,6 +17,15 @@ export default function Phonetics(props) {
           customAdditionalControls={[]}
           showJumpControls={false}
           customVolumeControls={[]}
+          layout="horizontal-reverse"  
+          customProgressBarSection={
+            [
+              RHAP_UI.PROGRESS_BAR,
+              RHAP_UI.CURRENT_TIME,
+              <div>/</div>,
+              RHAP_UI.DURATION
+            ]
+          }
           src={props.phonetics.audio}
         />
       </div>
