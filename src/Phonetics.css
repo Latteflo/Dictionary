@@ -1,0 +1,11 @@
+.Phonetics .phonetics {
+    margin-bottom: 20px;
+    color: #656363;
+  }
+
+  .audio{
+   width: 100%;
+   height: auto;
+   background-color: #656363;
+   border-radius: 5%;
+  }

@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from'react';
+import "./App.css";
+import Dictionary from "./Dictionary.js";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="App">
+        <h1>Dictionary</h1>
+        <Dictionary defaultKeyword="sunshine" />
+        <br />
+        <footer>
+         This app was created by Florentina Simion ©, as part of her SheCodes React final projects.
+         <br/>
+         {" "}Open-sourced on{" "}
+          <a
+            href="https://github.com/Latteflo/Dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer">
+          Github
+          </a>{" "}|{" "}
+          <a href="">
+            Hosted on Netlify
+          </a>{" "}|{" "}
+          <a href="https://www.pexels.com">Photos provided by Pexels
+          </a>{" "}|{" "}
+          <a href="http://www.freepik.com">Background by Freepik
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
