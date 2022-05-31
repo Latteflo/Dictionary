@@ -19,7 +19,7 @@ export default function App() {
             rel="noopener noreferrer">
           Github
           </a>{" "}|{" "}
-          <a href="https://github.com/Latteflo/Dictionary">
+          <a href="https://62968f6d481f6b0b614d4c68--dictionary-project-flo.netlify.app/">
             Hosted on Netlify
           </a>{" "}|{" "}
           <a href="https://www.pexels.com">Photos provided by Pexels
