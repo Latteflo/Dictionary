@@ -1,4 +1,4 @@
-h2 {
+h2,h3 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: transparent;
     background: #666666;
@@ -7,4 +7,8 @@ h2 {
     background-clip: text;
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
     text-align: center;
+  }
+
+  h3{
+    color:#494848 ;
   }
