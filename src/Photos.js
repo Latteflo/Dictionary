@@ -1,6 +1,7 @@
 import React from "react";
 import "./Photos.css";
 import Carousel from 'nuka-carousel';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Photos(props) {
@@ -13,10 +14,10 @@ export default function Photos(props) {
                   <span className="photos">{}</span>
                 )}
                 renderCenterLeftControls={({ previousSlide }) => (
-                  <button onClick={previousSlide}>Previous</button>
+                  <button onClick={previousSlide}> {faArrowLeft} </button>
                 )}
                 renderCenterRightControls={({ nextSlide }) => (
-                  <button onClick={nextSlide}>Next</button>
+            <button onClick={nextSlide}>{faArrowRight}</button>
                 )}
               >
           {props.photos.map(function (photos, index) {

@@ -9,13 +9,13 @@ export default function Dictionary(props) {
   const [result, setResult] = useState(null);
   const [loaded, setLoaded] = useState(false);
   const [photos, setPhotos] = useState(null);
-
+ 
   function handleDictionaryResponse(response) {
     setResult(response.data[0]);
   }
 
   function handlePhotoResponse(response) {
-    setPhotos(response.data.photos);
+    setPhotos(response.data.photos); 
   }
 
   function search() {
@@ -29,9 +29,11 @@ export default function Dictionary(props) {
     axios.get(pexelsApiUrl, { headers: header }).then(handlePhotoResponse);
   }
 
+
   function handleSubmit(event) {
     event.preventDefault();
-    search();
+    search(); 
+  
   }
 
   function handleInput(event) {

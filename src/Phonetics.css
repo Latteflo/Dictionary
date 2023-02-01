@@ -1,14 +1,20 @@
-.Phonetics .phonetics {
-    margin-bottom: 20px;
-    color: #656363;
-  }
-
-  .audio{
-   width: 100%;
-   height: auto;
-   background-color: #656363;
-   border-radius: 5%; 
-   box-shadow:  3px 3px 6px #cccccc,
-                -3px -3px 6px #ffffff;
-   
-  }
+.Phonetics,
+.phonetics {
+  color: #656363;
+  text-decoration: underline #cccccc;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.Phonetics {
+  display: flex;
+  flex-direction: row;
+  margin: 2% auto;
+}
+.phonetics {
+  width: 50%;
+}
+.audio {
+  width: 50%;
+  border-radius: 2%;
+}
