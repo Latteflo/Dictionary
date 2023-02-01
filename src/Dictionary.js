@@ -54,7 +54,7 @@ export default function Dictionary(props) {
             placeholder="Type a word..."
             onChange={handleInput}
           />
-          <button type="submit">Search!</button>
+          <button type="submit">Search</button>
         </form>
         <Results results={result} />
         <Photos photos={photos} />
